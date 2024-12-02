@@ -21,6 +21,7 @@ nav{
      display: flex;
      align-items: center;
      justify-content: space-between;
+     margin: 0 200px;
 }
 .web-titel{
      color: #181818;
@@ -41,4 +42,65 @@ nav li{
 nav a{
      text-decoration: none;
      color: gray;
+}
+/* header related styles */
+.header{
+     background:#FFF8F3;
+     background-image: url(images/header_bg.png);
+     background-repeat: no-repeat;
+     background-position: bottom right;
+
+}
+.banner{
+     margin: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.banner-content{
+     max-width: 500px;
+}
+.banner-profil-pik{
+     width: 500px;
+}
+.banner-greeting{
+     font-size: 45px;
+     color: #474747;
+     margin-bottom: 0;
+
+}
+.banner-title{
+     font-size: 85px;
+     font-weight: 700;
+     margin-top: 5px;
+     margin-bottom: 20px;
+
+}
+.banner-caption{
+
+}
+.section-title{
+     color: #181818;
+     text-align: center;
+     /* font-family: open sans; */
+     font-weight: 700;
+     font-size: 35px;
+     font-weight: normal;
+}
+.section-distion{
+     color: #757575;
+     text-align: center;
+     font-size: 18px;
+}
+
+/* main section style */
+
+
+
+/* about section style */
+.about{
+     padding: 130px;
+     margin: 130px ;
+     border-radius: 10px;
+     background: #f0edeb;
 }
