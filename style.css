@@ -1,0 +1,44 @@
+/* font style */
+body{
+     font-family: "Open Sans", serif;
+   font-family: 'lato', sans-serif;
+}
+.text-primary{
+     color: #FD6E0A;
+}
+.btn-primary{
+     text-align: center;
+     font-family: 700;
+     border-radius: 5px;
+     background-color: #FD6E0A;
+     border: 0;
+     padding: 10px 20px;
+     color: white;
+     font-size: 20px;
+}
+/* nav related style */
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.web-titel{
+     color: #181818;
+     font-size: 45px;
+     /* font-style: normal; */
+     font-weight: 800;
+     /* line-height: normal; */
+}
+nav >ul{
+     display:flex;
+     align-items: center;
+
+}
+nav li{
+     list-style: none;
+     margin-right: 50px;
+}
+nav a{
+     text-decoration: none;
+     color: gray;
+}
