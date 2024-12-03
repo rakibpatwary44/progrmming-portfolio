@@ -98,7 +98,9 @@ main{
       max-width: 1140px;
       margin: 0 auto;
 }
-
+main section{
+     margin-top: 130px;
+}
 
 /* about section style */
 .about{
@@ -130,4 +132,57 @@ main{
 }
 .what-do{
      background: #ebe5e1;
+}
+
+/* skills section style */
+.skill-container{
+     display: flex;
+     gap: 24px;
+}
+.skill{
+      padding: 30px;
+     border-radius: 5px;
+     /* background: #FFF; */
+     background: rgb(216, 213, 213);
+     /* box-shadow: 0 6px 50px 0 black(0, 0, 0, 0.05); */
+     box-shadow: 5px; 
+
+}
+.skill-dis{
+     color:rgb(19, 18, 18);
+}
+/* reume section */
+.rusume-coloum-title{
+     color: #474747;
+     font-size: 30px;
+     font-weight: 700; 
+}
+.resume-container{
+     display: flex;
+     gap:50px;
+
+}
+.resum-instu{
+     margin-top: 0px;
+     margin-bottom: 20px;
+
+}
+.resmum-item-diescription, .resum-instu {
+     color: #757575;
+
+}
+.resume-item-title{
+     color: #474747;
+     font-size: 25px;
+     font-weight: 700;
+     margin-bottom: 10px;
+}
+.resume-container hr{
+     margin: 30px;
+
+}
+.download-cv{
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 20px;
 }
